@@ -15,6 +15,8 @@
 		6D79EC5415A1DF8D00F96AEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D79EC5315A1DF8D00F96AEB /* AppDelegate.m */; };
 		6D79EC5715A1DF8D00F96AEB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D79EC5515A1DF8D00F96AEB /* MainStoryboard.storyboard */; };
 		6D79EC5A15A1DF8D00F96AEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D79EC5915A1DF8D00F96AEB /* ViewController.m */; };
+		6D79EC6215A1E37700F96AEB /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D79EC6015A1E37700F96AEB /* button.png */; };
+		6D79EC6315A1E37700F96AEB /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D79EC6115A1E37700F96AEB /* button@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,17 @@
 		6D79EC4315A1DF8D00F96AEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6D79EC4515A1DF8D00F96AEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6D79EC4715A1DF8D00F96AEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6D79EC4B15A1DF8D00F96AEB /* ResizableImage-Info.plist */ = {isa = PBXFileReference; path = "ResizableImage-Info.plist"; sourceTree = "<group>"; };
+		6D79EC4B15A1DF8D00F96AEB /* ResizableImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResizableImage-Info.plist"; sourceTree = "<group>"; };
 		6D79EC4D15A1DF8D00F96AEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D79EC4F15A1DF8D00F96AEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6D79EC5115A1DF8D00F96AEB /* ResizableImage-Prefix.pch */ = {isa = PBXFileReference; path = "ResizableImage-Prefix.pch"; sourceTree = "<group>"; };
-		6D79EC5215A1DF8D00F96AEB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D79EC5115A1DF8D00F96AEB /* ResizableImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ResizableImage-Prefix.pch"; sourceTree = "<group>"; };
+		6D79EC5215A1DF8D00F96AEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D79EC5315A1DF8D00F96AEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6D79EC5615A1DF8D00F96AEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6D79EC5815A1DF8D00F96AEB /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6D79EC5815A1DF8D00F96AEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6D79EC5915A1DF8D00F96AEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D79EC6015A1E37700F96AEB /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		6D79EC6115A1E37700F96AEB /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		6D79EC4915A1DF8D00F96AEB /* ResizableImage */ = {
 			isa = PBXGroup;
 			children = (
+				6D79EC6015A1E37700F96AEB /* button.png */,
+				6D79EC6115A1E37700F96AEB /* button@2x.png */,
 				6D79EC5215A1DF8D00F96AEB /* AppDelegate.h */,
 				6D79EC5315A1DF8D00F96AEB /* AppDelegate.m */,
 				6D79EC5515A1DF8D00F96AEB /* MainStoryboard.storyboard */,
@@ -150,6 +156,8 @@
 			files = (
 				6D79EC4E15A1DF8D00F96AEB /* InfoPlist.strings in Resources */,
 				6D79EC5715A1DF8D00F96AEB /* MainStoryboard.storyboard in Resources */,
+				6D79EC6215A1E37700F96AEB /* button.png in Resources */,
+				6D79EC6315A1E37700F96AEB /* button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
