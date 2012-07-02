@@ -50,14 +50,14 @@
 - (void)configureButtonImage
 {
     CGFloat top = 0.0;
-    CGFloat left = 10.0;
+    CGFloat left = 0.0;
     CGFloat bottom = 0.0;
-    CGFloat right = 10.0;
+    CGFloat right = 0.0;
     
-//    top = sliderTop.value;
-//    left = sliderLeft.value;
-//    bottom = sliderBottom.value;
-//    right = sliderRight.value;
+    top = sliderTop.value;
+    left = sliderLeft.value;
+    bottom = sliderBottom.value;
+    right = sliderRight.value;
     
     UIImage *resizedImage = [image resizableImageWithCapInsets:UIEdgeInsetsMake(top, left, bottom, right)];
     [button setBackgroundImage:resizedImage forState:UIControlStateNormal];
